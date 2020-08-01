@@ -1,6 +1,11 @@
-import {createSiteControlTemplate, createSiteFilterTemplate, createSiteSortWrapperTemplate,
-  createSiteSortFilterTemplate, createSiteTaskEditFormTemplate, createSiteTaskLoadButtonTemplate,
-  createSiteTaskTemplate, createSiteTaskWrapperTemplate} from './index.js';
+import {createSiteControlTemplate} from './view/siteControl';
+import {createSiteFilterTemplate} from './view/siteFilter';
+import {createSiteSortFilterTemplate} from './view/siteSortFilter';
+import {createSiteSortWrapperTemplate} from './view/siteSortWrapper';
+import {createSiteTaskTemplate} from './view/siteTask';
+import {createSiteTaskEditFormTemplate} from './view/siteTaskEditForm';
+import {createSiteTaskLoadButtonTemplate} from './view/siteTaskLoadButton';
+import {createSiteTaskWrapperTemplate} from './view/siteTaskWrapper';
 
 const TASK_COUNT = 3;
 const mainWrapper = document.querySelector(`.main`);
